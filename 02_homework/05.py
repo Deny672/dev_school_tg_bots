@@ -1,3 +1,6 @@
+"""
+https://www.codewars.com/kata/598638d7f3a2c489b2000030
+"""
 def get_root_property(obj, number_to_find):
     for key, value in obj.items():
         if isinstance(value, dict):

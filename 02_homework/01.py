@@ -1,3 +1,8 @@
+"""
+These assignments are taken by the course creators from CodeWars, here's a link to learn the essence of the assignment
+https://www.codewars.com/kata/64edf7ab2b610b16c2067579
+"""
+
 def largest_radial_sum(arr, d):
     step = len(arr) // d
     sum_list = []
@@ -13,15 +18,3 @@ arr = [1, 5, 6, 3, 4, 2]
 count = 3
 print(largest_radial_sum(arr, count))
 
-# k = int(len(arr) / count_group)
-# rating_group = {}
-# value_rating_group = []
-# for i in range(k):
-#     for j in range(count_group):
-#         if j in rating_group:
-#             rating_group[j] += arr[j + count_group * i]
-#         else:
-#             rating_group[j] = arr[j + count_group * i]
-# for key in range(len(rating_group)):
-#     value_rating_group.append(rating_group[key])
-# return max(value_rating_group)

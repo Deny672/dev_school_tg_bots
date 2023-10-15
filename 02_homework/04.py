@@ -1,4 +1,8 @@
-loot = [("[IIII]", "[llll]", "[1111]", "[@@@@]", "[||||]", "[║║║║]")]
+
+"""
+https://www.codewars.com/kata/5fa6d9e9454977000fb0c1f8
+"""
+
 
 def check_track(loot_in_track):
     result = ""
@@ -20,4 +24,5 @@ def check_track(loot_in_track):
         result = result[:-1]
     return result
 
+loot = [("[IIII]", "[llll]", "[1111]", "[@@@@]", "[||||]", "[║║║║]")]
 print(check_track(loot))

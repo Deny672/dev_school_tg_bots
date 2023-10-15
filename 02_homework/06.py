@@ -1,9 +1,6 @@
-arr = ['XOOO',
-       'XOXO',
-       'XOXO',
-       'OOXX',
-       'OOOO']
-
+"""
+https://www.codewars.com/kata/5839c48f0cf94640a20001d3
+"""
 
 def islandPerimeter(arr):
     perimeter = 0
@@ -25,5 +22,9 @@ def islandPerimeter(arr):
 
     return f"Total land perimeter: {perimeter}"
 
-
+arr = ['XOOO',
+       'XOXO',
+       'XOXO',
+       'OOXX',
+       'OOOO']
 print(islandPerimeter(arr))
