@@ -1,6 +1,5 @@
 """
-Your task, is to calculate the minimal number of moves to win the game
-"Towers of Hanoi", with given number of disks.
+https://www.codewars.com/kata/534eb5ad704a49dcfa000ba6
 """
 def search_count_move(count_disk):
     return (2 ** count_disk) - 1
